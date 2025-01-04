@@ -1,0 +1,10 @@
+1) docker --version
+2) sudo docker login
+3) sudo docker login -u <username>
+4) sudo docker pull mysql 
+5) sudo docker run --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -d mysql 
+6) sudo docker ps -a
+7) sudo docker ps
+8) sudo docker stop <container_id or container name>
+9) sudo docker rm <container_id or container name>
+10) sudo docker rmi mysql

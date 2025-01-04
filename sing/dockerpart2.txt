@@ -1,0 +1,12 @@
+FROM openjdk
+WORKDIR /app
+COPY . /app
+RUN javac hi.java
+CMD["java","hi"]
+
+sudo docker build -t kidneys
+sudo docker run kidneys
+
+class hi{
+public static void main(String[] args){
+System.out.println("hello");}}

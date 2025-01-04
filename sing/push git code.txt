@@ -1,0 +1,25 @@
+sudo apt update
+sudo apt install git
+git --version
+git config --global user.name "your username"
+git config --global user.email "your email"
+git config --list
+-----create a folder now----
+pwd
+mkdir <-foldername->
+cd <-folder name->
+------colne the repo-----
+git clone <-repo link->
+ls
+cd <-goto repo folder->
+---------creating file and pushing to origin-----
+
+touch <-filename->.java
+gedit <-filename->.java
+It opens editor write the code after writing 
+git status
+git add <-filename->.java
+git commit -m "inital commit"
+git push origin main
+
+git remote set-url origin https://<username>:<personal_access_token>@github.com/<username>/<repository>.git

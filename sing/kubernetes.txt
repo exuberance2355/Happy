@@ -1,0 +1,15 @@
+minikube start --driver=docker
+minikube start
+minikube status
+kubectl cluster-info
+kubectl get pods
+kubectl create deployment <your_name> --image=nginx
+kubectl expose deployment <your_name> --type=NodePort --port=80
+kubectl get pods
+minikube service <your_name> --url
+minikube dashboard
+minikube stop
+kubectl delete pod <pod-name>
+kubectl get deployments
+kubectl get services
+kubectl delete deployment <deployment-name>
